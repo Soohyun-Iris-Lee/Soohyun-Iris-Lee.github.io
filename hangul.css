@@ -1,0 +1,258 @@
+.hangul {
+  position: absolute;
+  top: 100px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 70%;
+  height: auto;
+  z-index: 0;
+}
+.hangul.small {
+  position: absolute;
+  top: 55px;
+  width: 38%;
+}
+
+.next-btn {
+  position: absolute;
+  bottom: 46px;
+  right: 168px;
+  font-size: 20px;
+  font-family: "estratto-variable", sans-serif;
+  font-variation-settings: "wght" 400;
+  color: #e16350;
+  cursor: pointer;
+  z-index: 2;
+  background: none;
+  border: none;
+  padding: 0;
+  outline: none;
+
+}
+
+.reset-btn{
+  position: absolute;
+  bottom: 46px;
+  right: 255px;
+  font-size: 20px;
+  font-family: "estratto-variable", sans-serif;
+  font-variation-settings: "wght" 400;
+  color: #e16350;
+  cursor: pointer;
+  z-index: 2;
+  background: none;
+  border: none;
+  padding: 0;
+  outline: none;
+
+}
+
+body {
+  background-color: #fffef5;
+}
+
+.save-btn {
+  position: absolute;
+  bottom: 46px;
+  right: 80px;
+  font-size: 20px;
+  font-family: "estratto-variable", sans-serif;
+  font-variation-settings: "wght" 400;
+  color: #e16350;
+  cursor: pointer;
+  z-index: 2;
+  background: none;
+  border: none;
+  padding: 0;
+  outline: none;
+
+}
+
+.hangulcontrol{
+  position:absolute;
+  bottom:30px;
+  right:50px;
+  width: 286px;
+  height: 56px;
+
+}
+
+.removeButton {
+  position: absolute;
+  top: 290px;
+  right: 30px;
+  width: 50px;
+  height: auto;
+  cursor: pointer;
+  z-index: 5;
+  transition-duration: 0.4s;
+}
+.removeButton:hover {
+  content: url('closebutton.png');
+  position: absolute;
+  top: 290px;
+  right: 30px;
+  width: 50px;
+  height: auto;
+  cursor: pointer;
+  z-index: 5;
+}
+
+.aboutbutton {
+  position: absolute;
+  top: 390px;
+  right: 30px;
+  width: 50px;
+  height: auto;
+  cursor: pointer;
+  z-index: 2;
+  transition-duration: 0.4s;
+}
+
+.aboutbutton:hover {
+  content: url('aboutbuttoncontrast.png');
+  position: absolute;
+  top: 390px;
+  right: 30px;
+  width: 50px;
+  height: auto;
+  cursor: pointer;
+  z-index: 3;
+}
+
+.brush-btn {
+  
+  width: 75px; 
+  height: 75px;
+  border-radius: 50%; 
+  object-fit: cover; 
+  cursor: pointer; 
+  display: block; 
+  z-index: 2; 
+  border: none;
+  padding: 0;
+  margin: 0;
+
+  position:absolute;
+  top:50px;
+  left:30px;
+}
+
+.knot{
+  position:absolute;
+  bottom:60px;
+  left:38px;
+  width: 100px;
+
+}
+
+.brushes{
+
+  position:absolute;
+  top:45px;
+  left:28px;
+  width: 120px;
+  z-index: 0;
+
+}
+
+.hanguldescription{
+  font-family: "estratto-variable", sans-serif;
+  font-variation-settings: "wght" 400;
+  font-size: 15pt;
+  color: #a6a6a6;
+  text-align: center;
+  position: absolute;
+  bottom: 100px;
+  left: 50%;
+  transform: translateX(-50%);
+
+}
+
+.hidden {
+  display: none;
+}
+
+.imageContainer {
+  position:fixed;
+  text-align: center;
+  margin-top: 0px;
+  z-index: 2000;
+
+}
+
+.hangulabout{
+  position:absolute;
+  top:130px;
+  left:250px;
+  width: 1000px;
+  height: auto;
+  z-index: 999;
+}
+
+
+
+.bg{
+position: absolute;
+top: 0px;
+left: 50%;
+transform: translateX(-50%);
+width: 100vw; 
+height: auto; 
+z-index: 2;
+
+}
+
+
+.meaningtText{
+
+  position:absolute;
+  bottom:227px;
+  right:100px;
+  width: 150px;
+  color: #a6a6a6;
+  font-size: 20px;
+  font-family: "estratto-variable", sans-serif;
+  font-variation-settings: "wght" 400;
+}
+
+
+
+.brushoverviewbutton{
+  cursor: pointer;  
+  position:absolute;
+  bottom:150px;
+  right:280px;
+  width: 300px;
+  color: #f35847;
+  font-family: "estratto-variable", sans-serif;
+  font-variation-settings: "wght" 400;
+  font-size: 17px;
+  z-index: 1001px;
+  pointer-events: auto;
+}
+
+
+.audio-btn {
+ 
+  background: none;
+  border: none;
+  cursor: pointer;
+  z-index: 3;
+  transition-duration: 0.4s;
+  transform:none;
+}
+
+.audio-btn img {
+  top: 490px;
+  right: 30px;
+  width: 50px;
+  height: auto;
+  position: absolute;
+  width: 50px;
+  height: auto;
+}
+
+
+
+

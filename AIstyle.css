@@ -1,0 +1,213 @@
+
+body {
+    background-color: #fffef5;
+    margin: 0;
+    padding: 0;
+
+  
+  }
+  
+
+.image {
+  position: absolute;
+  top: 85px ;
+  left: 50%; 
+  transform: translateX(-50%); 
+  display: block;
+  width: 600px; 
+  height: auto; 
+  z-index: 0;
+  }
+
+  .removeButton {
+    position:absolute;
+    top: 310px;
+    right: 30px;
+    width: 50px;
+    height: auto;
+    cursor: pointer;
+    z-index: 2;
+    transform: none; 
+    transition-duration: 0.4s;
+  }
+
+  .removeButton:hover {
+    content: url('closebutton.png');
+    position: absolute;
+    top: 310px;
+    right: 30px;
+    width: 50px;
+    height: auto;
+    cursor: pointer;
+    z-index: 2;
+  }
+  
+  .aboutbutton {
+    position: absolute;
+    top: 410px;
+    right: 30px;
+    width: 50px;
+    height: auto;
+    cursor: pointer;
+    z-index: 2;
+    transition-duration: 0.4s;
+  }
+  
+  .aboutbutton:hover {
+    content: url('aboutbuttoncontrast.png');
+    position: absolute;
+    top: 410px;
+    right: 30px;
+    width: 50px;
+    height: auto;
+    cursor: pointer;
+    z-index: 3;
+  }
+  
+
+
+  .prompt-wrapper {
+    position: absolute;
+    left: 200px;
+    bottom: 20px;
+    display: flex; 
+    align-items: center; 
+    gap: 20px; 
+}
+
+.generate {
+    width: 1000px; 
+    height: 80px; 
+    background: url('promptbutton.png') no-repeat center;
+    background-size: contain; 
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+    border: none;
+}
+
+.generate > input {
+    width: 90%; 
+    height: 100%;
+    background: none; 
+    border: none; 
+    outline: none; 
+    text-align: left;
+    font-size: 18px; 
+    font-family: "estratto-variable", sans-serif;
+    font-variation-settings: "wght" 400;
+    color: #fffef5;
+    padding-left: 20px; 
+}
+
+.create {
+    width: 180px; 
+    height: 65px; 
+    background: url('createimagebutton.png') no-repeat center;
+    background-size: contain; 
+    border: none;
+    cursor: pointer;
+    font-size: 0; 
+    overflow: hidden; 
+    transition-duration: 0.4s;
+}
+
+
+.create:hover {
+  width: 180px; 
+  height: 65px; 
+  background: url('createimagebuttoncontrast.png') no-repeat center;
+  background-size: contain; 
+  border: none;
+  cursor: pointer;
+  font-size: 0; 
+  overflow: hidden; 
+ 
+}
+
+
+
+.loader {
+  width: 90px;
+  aspect-ratio: 2;
+  --_g: no-repeat radial-gradient(circle closest-side,#e16350 90%,#0000);
+  background: 
+    var(--_g) 0%   50%,
+    var(--_g) 50%  50%,
+    var(--_g) 100% 50%;
+  background-size: calc(100%/3) 50%;
+  animation: l3 1s infinite linear;
+  z-index: 1;
+  position: absolute;
+  left:720px;
+  bottom: 420px;
+}
+@keyframes l3 {
+    20%{background-position:0%   0%, 50%  50%,100%  50%}
+    40%{background-position:0% 100%, 50%   0%,100%  50%}
+    60%{background-position:0%  50%, 50% 100%,100%   0%}
+    80%{background-position:0%  50%, 50%  50%,100% 100%}
+}
+.hidden {
+  display: none;
+}
+
+.imageContainer {
+  position:fixed;
+  text-align: center;
+  margin-top: 0px;
+  z-index: 2000px;
+
+}
+
+.AIabout{
+  position:absolute;
+  top:130px;
+  left:250px;
+  width: 1000px;
+  height: auto;
+  z-index: 3000px;
+}
+
+
+
+.bg{
+position: absolute;
+top: 0px;
+left: 50%;
+transform: translateX(-50%);
+width: 100vw; 
+height: auto; 
+z-index: 1500px;
+
+}
+
+
+.AIsampleprompts{
+  position: absolute;
+  bottom: 100px;
+  right:70px;
+  width: 200px;
+  font-family: "estratto-variable", sans-serif;
+  font-variation-settings: "wght" 400;
+  color:#f35847;
+
+}
+.newline {
+  display: block;
+  margin-top: 15px; 
+}
+
+.square {
+
+  width: 610px;
+  height: 610px;
+  position:absolute;
+  top: 80px ;
+  left: 50%; 
+  transform: translateX(-50%); 
+  background-color: #1b2982; 
+  border: 5px solid #e16350; 
+  box-sizing: border-box; 
+  z-index:0px;
+}
