@@ -156,7 +156,7 @@ body {
   position:fixed;
   text-align: center;
   margin-top: 0px;
-  z-index: 2000px;
+  z-index: 2000;
 
 }
 
@@ -166,7 +166,7 @@ body {
   left:250px;
   width: 1000px;
   height: auto;
-  z-index: 3000px;
+  z-index: 3000;
 }
 
 
@@ -178,7 +178,7 @@ left: 50%;
 transform: translateX(-50%);
 width: 100vw; 
 height: auto; 
-z-index: 1500px;
+z-index: 1500;
 
 }
 
@@ -209,5 +209,5 @@ z-index: 1500px;
   background-color: #1b2982; 
   border: 5px solid #e16350; 
   box-sizing: border-box; 
-  z-index:0px;
+  z-index:0;
 }

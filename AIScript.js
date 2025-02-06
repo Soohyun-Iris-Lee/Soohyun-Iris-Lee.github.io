@@ -80,7 +80,7 @@ document.addEventListener("DOMContentLoaded", () => {
       removeButton.style.width = "40px";
       removeButton.style.cursor = "pointer";
       removeButton.style.transition = "0.4s"; 
-      removeButton.style.zIndex = "1000"
+      removeButton.style.zIndex = "3000"
   
       document.body.appendChild(removeButton);
   
